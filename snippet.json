@@ -1,0 +1,47 @@
+{
+	"import styled": {
+		"prefix": "imp-styled",
+		"body": [
+			"import * as S from './styled'"
+		],
+		"description": "import styled"
+	},
+
+	"empty allow function": {
+		"prefix": "js-emptyallowfunc",
+		"body": [
+			"() => {}"
+		],
+		"description": "import styled"
+	},
+
+	"import react": {
+		"prefix": "imp-react",
+		"body": [
+			"import React from 'react'"
+		],
+		"description": "import styled"
+	},
+
+	"export fc": {
+		"prefix": "exp-fc",
+		"body": [
+			"type Props = {",
+			"}",
+			"",
+			"export const ComponentName: React.FC<Props> = () => {",
+			"  return <div />",
+			"}"
+		],
+		"description": "export fc"
+	},
+
+	"props type": {
+		"prefix": "ty-props",
+		"body": [
+			"type Props = {",
+			"}"
+		],
+		"description": "props type"
+	}
+}
